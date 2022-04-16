@@ -19,7 +19,7 @@ const text = string.capitalize("first letter...");
 
 ### Array
 
-- `sliceIntoChunks(arr, chunkSize = 10)`
+- `sliceIntoChunks(arr, chunkSize)`
 - `shuffle(arr)`
 
 ### Color
