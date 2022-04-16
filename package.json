@@ -1,7 +1,12 @@
 {
   "name": "@ckbab/js-util",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./color": "./src/color.js",
+    "./string": "./src/string.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

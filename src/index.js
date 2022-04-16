@@ -1,4 +1,4 @@
-import color from "./color";
-import string from "./string";
+import * as color from "./color";
+import * as string from "./string";
 
 export { color, string };
