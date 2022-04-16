@@ -1,3 +1,2 @@
-import { color, string } from "./src";
-
-export { color, string };
+export * as color from "./src/color";
+export * as string from "./src/string";

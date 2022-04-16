@@ -3,7 +3,7 @@
 ## Installation
 
 ```bash
-npm install @ckbab.se/js-util --save
+npm install @ckbab/js-util --save
 ```
 
 ## Usage
