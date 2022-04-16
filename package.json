@@ -9,11 +9,25 @@
     "type": "git",
     "url": "git+https://github.com/ckbab/js-util.git"
   },
-  "keywords": ["color", "string", "util"],
+  "keywords": [
+    "color",
+    "string",
+    "util"
+  ],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ckbab/js-util/issues"
   },
-  "homepage": "https://github.com/ckbab/js-util#readme"
+  "homepage": "https://github.com/ckbab/js-util#readme",
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.17.0",
+    "@ckbab/eslint-config": "^1.0.3",
+    "babel-preset-expo": "^9.0.2",
+    "eslint": "^8.13.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.29.4",
+    "prettier": "^2.6.2"
+  }
 }
