@@ -25,7 +25,7 @@
   "homepage": "https://github.com/ckbab/js-utils#readme",
   "devDependencies": {
     "@babel/eslint-parser": "^7.17.0",
-    "@ckbab/eslint-config": "^1.0.3",
+    "@ckbab/eslint-config": "^1.0.5",
     "babel-preset-expo": "^9.0.2",
     "eslint": "^8.13.0",
     "eslint-config-prettier": "^8.5.0",
