@@ -1,15 +1,15 @@
-# js-util
+# js-utils
 
 ## Installation
 
 ```bash
-npm install @ckbab/js-util --save
+npm install @ckbab/js-utils --save
 ```
 
 ## Usage
 
 ```js
-import { string } from "@ckbab/js-util";
+import { string } from "@ckbab/js-utils";
 
 const text = string.capitalize("first letter...");
 // text = "First letter..."

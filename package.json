@@ -1,26 +1,28 @@
 {
-  "name": "@ckbab/js-util",
-  "description": "Pure JavaScript util functions",
-  "version": "1.0.3",
+  "name": "@ckbab/js-utils",
+  "description": "JavaScript utilities with zero dependencies",
+  "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ckbab/js-util.git"
+    "url": "git+https://github.com/ckbab/js-utils.git"
   },
   "keywords": [
+    "array",
     "color",
+    "geolocation",
     "string",
-    "util"
+    "utils"
   ],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ckbab/js-util/issues"
+    "url": "https://github.com/ckbab/js-utils/issues"
   },
-  "homepage": "https://github.com/ckbab/js-util#readme",
+  "homepage": "https://github.com/ckbab/js-utils#readme",
   "devDependencies": {
     "@babel/eslint-parser": "^7.17.0",
     "@ckbab/eslint-config": "^1.0.3",
