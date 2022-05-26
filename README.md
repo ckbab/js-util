@@ -9,9 +9,9 @@ npm install @ckbab/js-utils --save
 ## Usage
 
 ```js
-import { string } from "@ckbab/js-utils";
+import { capitalize } from "@ckbab/js-utils";
 
-const text = string.capitalize("first letter...");
+const text = capitalize("first letter...");
 // text = "First letter..."
 ```
 
