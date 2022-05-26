@@ -24,6 +24,18 @@ export const formatPhoneNumber = (str) => {
   return null;
 };
 
+export const formatUrl = (str) => {
+  if (str) {
+    // If URL starts with "http" - keep it.
+    if (str.indexOf("http://") == 0) {
+      return str;
+    }
+    // Otherwise always use "https".
+    return "https://" + str.replace(/^https?:\/\//, "");
+  }
+  return null;
+};
+
 export const isEmail = (str) => {
   if (str) {
     const re = /\S+@\S+/;

@@ -38,6 +38,7 @@ const text = string.capitalize("first letter...");
 - `capitalize(str)`
 - `cutText(str, length)`
 - `formatPhoneNumber(str)`
+- `formatUrl(str)`
 - `isEmail(email)`
 - `stripPhoneNumber(str)`
 - `uncapitalize(str)`
