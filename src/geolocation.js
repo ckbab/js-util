@@ -13,14 +13,6 @@ export const getDistanceBetweenCoordinates = (lat1, lng1, lat2, lng2) => {
   return d;
 };
 
-export const getGoogleMapsUrl = (lat, lng) => {
-  const baseUrl = "https://www.google.com/maps/place";
-  if (lat && lng) {
-    return `${baseUrl}/${lat},${lng}`;
-  }
-  return null;
-};
-
 const deg2rad = (deg) => {
   return deg * (Math.PI / 180);
 };

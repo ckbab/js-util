@@ -31,7 +31,6 @@ const text = string.capitalize("first letter...");
 ### Geolocation
 
 - `getDistanceBetweenCoordinates(lat1, lng1, lat2, lng2)`
-- `getGoogleMapsUrl(lat, lng)`
 
 ### String
 
