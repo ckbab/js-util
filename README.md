@@ -35,9 +35,10 @@ const text = capitalize("first letter...");
 ### String
 
 - `capitalize(str)`
+- `createUrl(basePath, queryString)`
 - `cutText(str, length)`
-- `formatPhoneNumber(str)`
-- `formatUrl(str)`
+- `formatPhoneNumber(phone)`
+- `formatUrl(url)`
 - `isEmail(email)`
-- `stripPhoneNumber(str)`
+- `stripPhoneNumber(phone)`
 - `uncapitalize(str)`

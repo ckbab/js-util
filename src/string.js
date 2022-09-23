@@ -5,6 +5,13 @@ export const capitalize = (str) => {
   return "";
 };
 
+export const createUrl = (basePath, obj) => {
+  const params = Object.entries(obj)
+    ?.map(([key, value]) => [key, value].join("="))
+    .join("&");
+  return params ? `${basePath}?${params}` : basePath;
+};
+
 export const cutText = (str, length) => {
   if (str && str.length > length) {
     const text = str.slice(0, length - 3).trim();
