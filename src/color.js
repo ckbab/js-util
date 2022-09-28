@@ -2,8 +2,8 @@ export const changeColor = (color, backgroundColor, alpha) => {
   if (!color || !backgroundColor) {
     return null;
   }
-  const { r: r1, g: g1, b: b1 } = hexToRgb(color);
-  const { r: r2, g: g2, b: b2 } = hexToRgb(backgroundColor);
+  const { b: b1, g: g1, r: r1 } = hexToRgb(color);
+  const { b: b2, g: g2, r: r2 } = hexToRgb(backgroundColor);
   const r = r1 * alpha + r2 * (1 - alpha);
   const g = g1 * alpha + g2 * (1 - alpha);
   const b = b1 * alpha + b2 * (1 - alpha);
@@ -15,7 +15,7 @@ export const changeOpacity = (color, opacity) => {
   if (!color) {
     return null;
   }
-  const { r, g, b } = hexToRgb(color);
+  const { b, g, r } = hexToRgb(color);
   return `rgba(${r}, ${g}, ${b}, ${opacity})`;
 };
 
@@ -23,7 +23,7 @@ export const getContrastColor = (color, dark = "#000", light = "#fff") => {
   if (!color) {
     return null;
   }
-  const { r, g, b } = hexToRgb(color);
+  const { b, g, r } = hexToRgb(color);
   if (0.2126 * r + 0.7152 * g + 0.0722 * b > 179) {
     return dark;
   } else {
@@ -37,9 +37,9 @@ const hexToRgb = (hex) => {
     const result = /^([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(color);
     return result
       ? {
-          r: parseInt(result[1], 16),
-          g: parseInt(result[2], 16),
           b: parseInt(result[3], 16),
+          g: parseInt(result[2], 16),
+          r: parseInt(result[1], 16),
         }
       : null;
   }
