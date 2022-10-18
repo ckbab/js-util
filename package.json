@@ -11,7 +11,6 @@
     "url": "git+https://github.com/ckbab/js-utils.git"
   },
   "keywords": [
-    "array",
     "color",
     "geolocation",
     "string",

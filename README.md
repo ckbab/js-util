@@ -17,11 +17,6 @@ const text = capitalize("first letter...");
 
 ## Functions
 
-### Array
-
-- `sliceIntoChunks(arr, chunkSize)`
-- `shuffle(arr)`
-
 ### Color
 
 - `changeOpacity(color, opacity)`
