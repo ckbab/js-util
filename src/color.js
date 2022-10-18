@@ -1,5 +1,5 @@
 export const changeColor = (color, backgroundColor, alpha) => {
-  if (!color || !backgroundColor) {
+  if (!isColor(color) || !isColor(backgroundColor)) {
     return null;
   }
   const { b: b1, g: g1, r: r1 } = hexToRgb(color);
@@ -12,7 +12,7 @@ export const changeColor = (color, backgroundColor, alpha) => {
 };
 
 export const changeOpacity = (color, opacity) => {
-  if (!color) {
+  if (!isColor(color)) {
     return null;
   }
   const { b, g, r } = hexToRgb(color);
@@ -20,7 +20,7 @@ export const changeOpacity = (color, opacity) => {
 };
 
 export const getContrastColor = (color, dark = "#000", light = "#fff") => {
-  if (!color) {
+  if (!isColor(color)) {
     return null;
   }
   const { b, g, r } = hexToRgb(color);
