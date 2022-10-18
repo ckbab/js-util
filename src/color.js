@@ -31,6 +31,13 @@ export const getContrastColor = (color, dark = "#000", light = "#fff") => {
   }
 };
 
+export const isColor = (color) => {
+  if (!color) {
+    return false;
+  }
+  return /^#([0-9a-f]{3}){1,2}$/i.test(color);
+};
+
 const hexToRgb = (hex) => {
   const color = formatColor(hex);
   if (color) {

@@ -3,7 +3,7 @@
 ## Installation
 
 ```bash
-npm install @ckbab/js-utils --save
+yarn add @ckbab/js-utils
 ```
 
 ## Usage
@@ -22,6 +22,7 @@ const text = capitalize("first letter...");
 - `changeOpacity(color, opacity)`
 - `changeColor(color, backgroundColor, alpha)`
 - `getContrastColor(color, dark = "#000", light = "#fff")`
+- `isColor(color)`
 
 ### Geolocation
 
