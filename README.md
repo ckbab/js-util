@@ -24,17 +24,8 @@ const text = capitalize("first letter...");
 - `getContrastColor(color, dark = "#000", light = "#fff")`
 - `isColor(color)`
 
-### Geolocation
-
-- `getDistanceBetweenCoordinates(lat1, lng1, lat2, lng2)`
-
 ### String
 
-- `capitalize(str)`
 - `createUrl(basePath, queryString)`
-- `cutText(str, length)`
-- `formatPhoneNumber(phone)`
 - `formatUrl(url)`
 - `isEmail(email)`
-- `stripPhoneNumber(phone)`
-- `uncapitalize(str)`
